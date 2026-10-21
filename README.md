@@ -22,6 +22,7 @@ cp fegenie.hmm /share/home/stxy1yyc/database/DRAM_db/databases/fegenie/fegenie.h
 # also put CAZy.dmnd, dbCAN.hmm, dbCAN-sub.hmm and fam-substrate-mapping.tsv
 # from https://pro.unl.edu/dbCAN2/browse_download.php?path=run_dbCAN_database_total/db_v5-2_9-13-2025
 # into /share/home/stxy1yyc/database/DRAM_db/databases/dbcan/
+# (rename dbCAN_sub.hmm to dbCAN-sub.hmm)
 bash 01_dram2_submit.sh <scaffold_dir> [run_dir]
 ```
 
