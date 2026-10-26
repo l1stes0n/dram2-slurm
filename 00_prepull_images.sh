@@ -29,6 +29,7 @@ wave() {  # <repo> <ref> <cache-file>
 }
 
 wave library/bbmap eecc2d5093684dba community.wave.seqera.io-library-bbmap-eecc2d5093684dba.img
+wave library/python_pandas_barrnap_trnascan-se e21b0760a084ff3c community.wave.seqera.io-library-python_pandas_barrnap_trnascan-se-e21b0760a084ff3c.img
 wave library/python_pandas_scikit-bio_hmmer_pruned 0bcae53ff4ef8178 community.wave.seqera.io-library-python_pandas_scikit-bio_hmmer_pruned-0bcae53ff4ef8178.img
 wave library/python_pandas_polars_hmmer_pruned 1742d882bc99fed5 community.wave.seqera.io-library-python_pandas_polars_hmmer_pruned-1742d882bc99fed5.img
 wave library/dbcan_diamond fbd051caf73e295f community.wave.seqera.io-library-dbcan_diamond-fbd051caf73e295f.img
