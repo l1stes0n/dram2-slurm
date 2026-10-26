@@ -19,10 +19,13 @@ each per-sample and per-database task submitted as a Slurm job.
 bash 00_prepull_images.sh
 cp nextflow.config /share/home/stxy1yyc2sxt/.nextflow/assets/BortonWrightonLabs/DRAM/nextflow.config
 cp fegenie.hmm /share/home/stxy1yyc/database/DRAM_db/databases/fegenie/fegenie.hmm
-# also put CAZy.dmnd, dbCAN.hmm, dbCAN-sub.hmm and fam-substrate-mapping.tsv
-# from https://pro.unl.edu/dbCAN2/browse_download.php?path=run_dbCAN_database_total/db_v5-2_9-13-2025
-# into /share/home/stxy1yyc/database/DRAM_db/databases/dbcan/
-# (rename dbCAN_sub.hmm to dbCAN-sub.hmm)
+# dbCAN databases, from
+#   https://pro.unl.edu/dbCAN2/browse_download.php?path=run_dbCAN_database_total/db_v5-2_9-13-2025
+# into /share/home/stxy1yyc/database/DRAM_db/databases/dbcan/:
+#   CAZy.dmnd dbCAN.hmm dbCAN-sub.hmm fam-substrate-mapping.tsv
+#   TCDB.dmnd TF.hmm TF.dmnd STP.hmm PUL.dmnd dbCAN-PUL.xlsx dbCAN-PUL.tar.gz
+#   peptidase_db.dmnd sulfatlas_db.dmnd
+#   (rename dbCAN_sub.hmm to dbCAN-sub.hmm, extract dbCAN-PUL.tar.gz)
 bash 01_dram2_submit.sh <scaffold_dir> [run_dir]
 ```
 
